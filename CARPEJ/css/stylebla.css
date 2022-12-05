@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+* {
+	font-family: 'Ubuntu', 'Arial', 'Verdana';
+}
+
+body {
+    background: url(../img/Wfond.jpg);    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	padding: 1%;
+}
+h1 {
+    font-size: 40px;
+}
+p.text {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 40px;
+    width: 520px;
+}
+p {
+    color: rgb(0, 0, 0);
+}
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.credits {
+    text-align: left;
+    font-weight: lighter;
+}
+div.bottom {
+    position: absolute;
+    bottom: 0;
+   }
+div.bottom.credits {
+    margin-left: -200px;
+   }

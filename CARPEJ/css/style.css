@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+* {
+	font-family: 'Ubuntu', 'Arial', 'Verdana';
+}
+html {
+    height: 100vh;
+}
+/* Fond */
+/* body {
+    height: 120vh;
+    margin: 0 auto;
+    text-decoration: none;
+} */
+/* body {
+	background: url('../img/Place\ of\ violet\ _\ Cycles.png');
+    background: url('../img/Place\ of\ pink\ bubbles\ _\ Cycles\ 8min.png');
+	background: url('../img/4\ formes\ flottantes\ _\ Cycles.png');
+	background: url('../img/Fumée\ néonne\ _\ Cycles.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	padding: 1%;
+} */
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    }
+/* Haut de page */
+
+.title {
+    text-align: center;
+    color:aliceblue;
+}
+h2 {
+    font-weight: 100;
+    color:aliceblue;
+
+}
+
+/* Liste */
+
+nav.nav {
+    list-style: none;
+    text-decoration: none;
+    width: 100%;
+    color:aliceblue;
+}
+nav.nav a {
+    color:aliceblue;
+    text-decoration: none;
+}
+nav.nav :visited {
+    color:aliceblue;
+}
+nav.nav a :hover {
+    color:aliceblue;
+}

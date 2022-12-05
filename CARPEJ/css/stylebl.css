@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+* {
+	font-family: 'Ubuntu', 'Arial', 'Verdana';
+}
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+/* body {
+    background: url(../img/Place\ of\ pink\ bubbles\ _\ Cycle\ _\ V3.png);    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	padding: 1%;
+} */
+p {
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 520px;
+}
+a {
+    color:aliceblue;
+    text-decoration: none;
+}
+div.bottom {
+    position: absolute;
+    bottom: 0;
+   }
